@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3431E2E41DD2F7D70007A462"
+               BuildableName = "ShanePrototypeIos.app"
+               BlueprintName = "ShanePrototypeIos"
+               ReferencedContainer = "container:ShanePrototypeIos.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3431E2F81DD2F7D80007A462"
+               BuildableName = "ShanePrototypeIosTests.xctest"
+               BlueprintName = "ShanePrototypeIosTests"
+               ReferencedContainer = "container:ShanePrototypeIos.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3431E3031DD2F7D80007A462"
+               BuildableName = "ShanePrototypeIosUITests.xctest"
+               BlueprintName = "ShanePrototypeIosUITests"
+               ReferencedContainer = "container:ShanePrototypeIos.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3431E2E41DD2F7D70007A462"
+            BuildableName = "ShanePrototypeIos.app"
+            BlueprintName = "ShanePrototypeIos"
+            ReferencedContainer = "container:ShanePrototypeIos.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3431E2E41DD2F7D70007A462"
+            BuildableName = "ShanePrototypeIos.app"
+            BlueprintName = "ShanePrototypeIos"
+            ReferencedContainer = "container:ShanePrototypeIos.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3431E2E41DD2F7D70007A462"
+            BuildableName = "ShanePrototypeIos.app"
+            BlueprintName = "ShanePrototypeIos"
+            ReferencedContainer = "container:ShanePrototypeIos.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
