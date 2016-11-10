@@ -1,0 +1,6 @@
+framework module Pods_ShanePrototypeIosTests {
+  umbrella header "Pods-ShanePrototypeIosTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
