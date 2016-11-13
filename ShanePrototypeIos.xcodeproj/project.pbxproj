@@ -43,7 +43,7 @@
 		2A59752FC9F05BF9B41050C5 /* Pods_ShanePrototypeIosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShanePrototypeIosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3431E2E51DD2F7D70007A462 /* ShanePrototypeIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShanePrototypeIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3431E2E81DD2F7D70007A462 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3431E2EA1DD2F7D70007A462 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3431E2EA1DD2F7D70007A462 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		3431E2ED1DD2F7D70007A462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3431E2EF1DD2F7D70007A462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3431E2F21DD2F7D70007A462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -93,6 +93,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34086CC21DD9208200D33269 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3431E2E81DD2F7D70007A462 /* AppDelegate.swift */,
+				3431E2EC1DD2F7D70007A462 /* Main.storyboard */,
+				3431E2EF1DD2F7D70007A462 /* Assets.xcassets */,
+				3431E2F11DD2F7D70007A462 /* LaunchScreen.storyboard */,
+				3431E2F41DD2F7D70007A462 /* Info.plist */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		3431E2DC1DD2F7D70007A462 = {
 			isa = PBXGroup;
 			children = (
@@ -118,14 +130,9 @@
 		3431E2E71DD2F7D70007A462 /* ShanePrototypeIos */ = {
 			isa = PBXGroup;
 			children = (
+				34086CC21DD9208200D33269 /* SupportingFiles */,
 				34871CD91DD43FC600C76090 /* Modals */,
 				3431E3161DD2FAB90007A462 /* Controllers */,
-				3431E2E81DD2F7D70007A462 /* AppDelegate.swift */,
-				3431E2EA1DD2F7D70007A462 /* ViewController.swift */,
-				3431E2EC1DD2F7D70007A462 /* Main.storyboard */,
-				3431E2EF1DD2F7D70007A462 /* Assets.xcassets */,
-				3431E2F11DD2F7D70007A462 /* LaunchScreen.storyboard */,
-				3431E2F41DD2F7D70007A462 /* Info.plist */,
 			);
 			path = ShanePrototypeIos;
 			sourceTree = "<group>";
@@ -151,6 +158,7 @@
 		3431E3161DD2FAB90007A462 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3431E2EA1DD2F7D70007A462 /* ViewController.swift */,
 				3431E3191DD433450007A462 /* RealmPrototypeViewController.swift */,
 			);
 			name = Controllers;
