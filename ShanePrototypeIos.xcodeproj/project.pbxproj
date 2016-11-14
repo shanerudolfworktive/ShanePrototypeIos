@@ -130,6 +130,7 @@
 		3431E2E71DD2F7D70007A462 /* ShanePrototypeIos */ = {
 			isa = PBXGroup;
 			children = (
+				348DB8B21DD9354E0035D758 /* CustomViews */,
 				34086CC21DD9208200D33269 /* SupportingFiles */,
 				34871CD91DD43FC600C76090 /* Modals */,
 				3431E3161DD2FAB90007A462 /* Controllers */,
@@ -171,6 +172,13 @@
 				34871CDA1DD43FE600C76090 /* DogModal.swift */,
 			);
 			path = Modals;
+			sourceTree = "<group>";
+		};
+		348DB8B21DD9354E0035D758 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 		8117916FE344712E30DA1850 /* Frameworks */ = {
