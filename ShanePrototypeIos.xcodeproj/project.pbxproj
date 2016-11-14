@@ -19,6 +19,12 @@
 		34871CDB1DD43FE600C76090 /* DogModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34871CDA1DD43FE600C76090 /* DogModal.swift */; };
 		348DB8B81DD93BBF0035D758 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348DB8B71DD93BBF0035D758 /* CalculatorViewController.swift */; };
 		34CAB58F1DD93EF5002B73AA /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CAB58E1DD93EF5002B73AA /* CalculatorBrain.swift */; };
+		34CAB5911DD958AB002B73AA /* EmotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CAB5901DD958AB002B73AA /* EmotionsViewController.swift */; };
+		34CAB5931DD95956002B73AA /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CAB5921DD95956002B73AA /* FacialExpression.swift */; };
+		34CAB5951DD95D3B002B73AA /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CAB5941DD95D3B002B73AA /* FaceViewController.swift */; };
+		34CAB5971DD9609F002B73AA /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CAB5961DD9609F002B73AA /* FaceView.swift */; };
+		34CAB5991DD96210002B73AA /* EyeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CAB5981DD96210002B73AA /* EyeView.swift */; };
+		34CAB59B1DDA267D002B73AA /* BlinkingFaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CAB59A1DDA267D002B73AA /* BlinkingFaceViewController.swift */; };
 		8A331BA659F28C7EB5FFE3BB /* Pods_ShanePrototypeIos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C70EB3636ECD97BA13D91F67 /* Pods_ShanePrototypeIos.framework */; };
 		F2345E79875490631D77A0EF /* Pods_ShanePrototypeIosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287B290C4019C90A5A28E517 /* Pods_ShanePrototypeIosTests.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +66,12 @@
 		34871CDA1DD43FE600C76090 /* DogModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogModal.swift; sourceTree = "<group>"; };
 		348DB8B71DD93BBF0035D758 /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalculatorViewController.swift; path = ShanePrototypeIos/Controllers/CalculatorViewController.swift; sourceTree = SOURCE_ROOT; };
 		34CAB58E1DD93EF5002B73AA /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		34CAB5901DD958AB002B73AA /* EmotionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmotionsViewController.swift; path = ShanePrototypeIos/Controllers/EmotionsViewController.swift; sourceTree = SOURCE_ROOT; };
+		34CAB5921DD95956002B73AA /* FacialExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
+		34CAB5941DD95D3B002B73AA /* FaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FaceViewController.swift; path = ShanePrototypeIos/Controllers/FaceViewController.swift; sourceTree = SOURCE_ROOT; };
+		34CAB5961DD9609F002B73AA /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		34CAB5981DD96210002B73AA /* EyeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyeView.swift; sourceTree = "<group>"; };
+		34CAB59A1DDA267D002B73AA /* BlinkingFaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlinkingFaceViewController.swift; path = ShanePrototypeIos/Controllers/BlinkingFaceViewController.swift; sourceTree = SOURCE_ROOT; };
 		69A2A60857FE4AAAD526CDD3 /* Pods-ShanePrototypeIosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShanePrototypeIosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShanePrototypeIosTests/Pods-ShanePrototypeIosTests.release.xcconfig"; sourceTree = "<group>"; };
 		7027C3184E4D034CDA2172C7 /* Pods-ShanePrototypeIosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShanePrototypeIosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShanePrototypeIosUITests/Pods-ShanePrototypeIosUITests.release.xcconfig"; sourceTree = "<group>"; };
 		756C8DEB2224E4DD49D736A6 /* Pods-ShanePrototypeIosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShanePrototypeIosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShanePrototypeIosUITests/Pods-ShanePrototypeIosUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -167,6 +179,9 @@
 				3431E2EA1DD2F7D70007A462 /* ViewController.swift */,
 				3431E3191DD433450007A462 /* RealmPrototypeViewController.swift */,
 				348DB8B71DD93BBF0035D758 /* CalculatorViewController.swift */,
+				34CAB5901DD958AB002B73AA /* EmotionsViewController.swift */,
+				34CAB5941DD95D3B002B73AA /* FaceViewController.swift */,
+				34CAB59A1DDA267D002B73AA /* BlinkingFaceViewController.swift */,
 			);
 			name = Controllers;
 			path = controllers;
@@ -183,6 +198,8 @@
 		348DB8B21DD9354E0035D758 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				34CAB5961DD9609F002B73AA /* FaceView.swift */,
+				34CAB5981DD96210002B73AA /* EyeView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -191,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				34CAB58E1DD93EF5002B73AA /* CalculatorBrain.swift */,
+				34CAB5921DD95956002B73AA /* FacialExpression.swift */,
 			);
 			path = Workers;
 			sourceTree = "<group>";
@@ -497,11 +515,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				34CAB58F1DD93EF5002B73AA /* CalculatorBrain.swift in Sources */,
+				34CAB5931DD95956002B73AA /* FacialExpression.swift in Sources */,
+				34CAB59B1DDA267D002B73AA /* BlinkingFaceViewController.swift in Sources */,
 				348DB8B81DD93BBF0035D758 /* CalculatorViewController.swift in Sources */,
+				34CAB5951DD95D3B002B73AA /* FaceViewController.swift in Sources */,
 				34871CDB1DD43FE600C76090 /* DogModal.swift in Sources */,
+				34CAB5911DD958AB002B73AA /* EmotionsViewController.swift in Sources */,
 				3431E2EB1DD2F7D70007A462 /* ViewController.swift in Sources */,
 				3431E2E91DD2F7D70007A462 /* AppDelegate.swift in Sources */,
 				3431E31A1DD433450007A462 /* RealmPrototypeViewController.swift in Sources */,
+				34CAB5971DD9609F002B73AA /* FaceView.swift in Sources */,
+				34CAB5991DD96210002B73AA /* EyeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
