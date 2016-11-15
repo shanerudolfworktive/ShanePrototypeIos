@@ -23,6 +23,14 @@
 		34CAB5971DD9609F002B73AA /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CAB5961DD9609F002B73AA /* FaceView.swift */; };
 		34CAB5991DD96210002B73AA /* EyeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CAB5981DD96210002B73AA /* EyeView.swift */; };
 		34CAB59B1DDA267D002B73AA /* BlinkingFaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CAB59A1DDA267D002B73AA /* BlinkingFaceViewController.swift */; };
+		34FFAEA21DDB753F009577C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34FFAEA11DDB753F009577C9 /* GoogleService-Info.plist */; };
+		34FFAEA41DDB7C81009577C9 /* FirebaseLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FFAEA31DDB7C81009577C9 /* FirebaseLoginViewController.swift */; };
+		34FFAEA61DDB83AA009577C9 /* GroceryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FFAEA51DDB83AA009577C9 /* GroceryListTableViewController.swift */; };
+		34FFAEA81DDBBA31009577C9 /* GroceryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FFAEA71DDBBA31009577C9 /* GroceryItem.swift */; };
+		34FFAEAA1DDBBB74009577C9 /* GroceryUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FFAEA91DDBBB74009577C9 /* GroceryUser.swift */; };
+		71478D4CB1D9BB4825BA0CC3 /* Pods_ShanePrototypeIosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553A3C1928968BD5A2C90716 /* Pods_ShanePrototypeIosUITests.framework */; };
+		9D38587750205C3CEDDE1CFF /* Pods_ShanePrototypeIos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1068256C7EA4F6FA34B48C /* Pods_ShanePrototypeIos.framework */; };
+		CF8CF38F2A91318D01A352EE /* Pods_ShanePrototypeIosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D380A790B5C0FEE39CF24D0 /* Pods_ShanePrototypeIosTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C1068256C7EA4F6FA34B48C /* Pods_ShanePrototypeIos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShanePrototypeIos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3431E2E51DD2F7D70007A462 /* ShanePrototypeIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShanePrototypeIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3431E2E81DD2F7D70007A462 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3431E2EA1DD2F7D70007A462 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +74,13 @@
 		34CAB5961DD9609F002B73AA /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 		34CAB5981DD96210002B73AA /* EyeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyeView.swift; sourceTree = "<group>"; };
 		34CAB59A1DDA267D002B73AA /* BlinkingFaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlinkingFaceViewController.swift; path = ShanePrototypeIos/Controllers/BlinkingFaceViewController.swift; sourceTree = SOURCE_ROOT; };
+		34FFAEA11DDB753F009577C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		34FFAEA31DDB7C81009577C9 /* FirebaseLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirebaseLoginViewController.swift; path = ShanePrototypeIos/Controllers/FirebaseLoginViewController.swift; sourceTree = SOURCE_ROOT; };
+		34FFAEA51DDB83AA009577C9 /* GroceryListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryListTableViewController.swift; sourceTree = "<group>"; };
+		34FFAEA71DDBBA31009577C9 /* GroceryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryItem.swift; sourceTree = "<group>"; };
+		34FFAEA91DDBBB74009577C9 /* GroceryUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryUser.swift; sourceTree = "<group>"; };
+		553A3C1928968BD5A2C90716 /* Pods_ShanePrototypeIosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShanePrototypeIosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D380A790B5C0FEE39CF24D0 /* Pods_ShanePrototypeIosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShanePrototypeIosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69A2A60857FE4AAAD526CDD3 /* Pods-ShanePrototypeIosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShanePrototypeIosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShanePrototypeIosTests/Pods-ShanePrototypeIosTests.release.xcconfig"; sourceTree = "<group>"; };
 		7027C3184E4D034CDA2172C7 /* Pods-ShanePrototypeIosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShanePrototypeIosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShanePrototypeIosUITests/Pods-ShanePrototypeIosUITests.release.xcconfig"; sourceTree = "<group>"; };
 		756C8DEB2224E4DD49D736A6 /* Pods-ShanePrototypeIosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShanePrototypeIosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShanePrototypeIosUITests/Pods-ShanePrototypeIosUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -78,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D38587750205C3CEDDE1CFF /* Pods_ShanePrototypeIos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF8CF38F2A91318D01A352EE /* Pods_ShanePrototypeIosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71478D4CB1D9BB4825BA0CC3 /* Pods_ShanePrototypeIosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +120,7 @@
 		34086CC21DD9208200D33269 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				34FFAEA11DDB753F009577C9 /* GoogleService-Info.plist */,
 				3431E2E81DD2F7D70007A462 /* AppDelegate.swift */,
 				3431E2EC1DD2F7D70007A462 /* Main.storyboard */,
 				3431E2EF1DD2F7D70007A462 /* Assets.xcassets */,
@@ -171,6 +191,8 @@
 				34CAB5901DD958AB002B73AA /* EmotionsViewController.swift */,
 				34CAB5941DD95D3B002B73AA /* FaceViewController.swift */,
 				34CAB59A1DDA267D002B73AA /* BlinkingFaceViewController.swift */,
+				34FFAEA31DDB7C81009577C9 /* FirebaseLoginViewController.swift */,
+				34FFAEA51DDB83AA009577C9 /* GroceryListTableViewController.swift */,
 			);
 			name = Controllers;
 			path = controllers;
@@ -179,6 +201,8 @@
 		34871CD91DD43FC600C76090 /* Modals */ = {
 			isa = PBXGroup;
 			children = (
+				34FFAEA71DDBBA31009577C9 /* GroceryItem.swift */,
+				34FFAEA91DDBBB74009577C9 /* GroceryUser.swift */,
 			);
 			path = Modals;
 			sourceTree = "<group>";
@@ -204,6 +228,9 @@
 		8117916FE344712E30DA1850 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1C1068256C7EA4F6FA34B48C /* Pods_ShanePrototypeIos.framework */,
+				5D380A790B5C0FEE39CF24D0 /* Pods_ShanePrototypeIosTests.framework */,
+				553A3C1928968BD5A2C90716 /* Pods_ShanePrototypeIosUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -338,6 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3431E2F31DD2F7D70007A462 /* LaunchScreen.storyboard in Resources */,
+				34FFAEA21DDB753F009577C9 /* GoogleService-Info.plist in Resources */,
 				3431E2F01DD2F7D70007A462 /* Assets.xcassets in Resources */,
 				3431E2EE1DD2F7D70007A462 /* Main.storyboard in Resources */,
 			);
@@ -505,8 +533,12 @@
 				34CAB58F1DD93EF5002B73AA /* CalculatorBrain.swift in Sources */,
 				34CAB5931DD95956002B73AA /* FacialExpression.swift in Sources */,
 				34CAB59B1DDA267D002B73AA /* BlinkingFaceViewController.swift in Sources */,
+				34FFAEA41DDB7C81009577C9 /* FirebaseLoginViewController.swift in Sources */,
+				34FFAEA61DDB83AA009577C9 /* GroceryListTableViewController.swift in Sources */,
 				348DB8B81DD93BBF0035D758 /* CalculatorViewController.swift in Sources */,
+				34FFAEA81DDBBA31009577C9 /* GroceryItem.swift in Sources */,
 				34CAB5951DD95D3B002B73AA /* FaceViewController.swift in Sources */,
+				34FFAEAA1DDBBB74009577C9 /* GroceryUser.swift in Sources */,
 				34CAB5911DD958AB002B73AA /* EmotionsViewController.swift in Sources */,
 				3431E2EB1DD2F7D70007A462 /* ViewController.swift in Sources */,
 				3431E2E91DD2F7D70007A462 /* AppDelegate.swift in Sources */,

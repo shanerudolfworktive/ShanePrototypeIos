@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>243185452533-s4b9ulv6af6d5iuid2mkrt2olleju493.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.243185452533-s4b9ulv6af6d5iuid2mkrt2olleju493</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAiX07nLtzEtx_TZ8hwia8e-yu-Klk5_9Y</string>
+	<key>GCM_SENDER_ID</key>
+	<string>243185452533</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.shane.ShanePrototypeIos</string>
+	<key>PROJECT_ID</key>
+	<string>shaneprototypeios-df91b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>shaneprototypeios-df91b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:243185452533:ios:2a2d17542f2ef806</string>
+	<key>DATABASE_URL</key>
+	<string>https://shaneprototypeios-df91b.firebaseio.com</string>
+</dict>
+</plist>
