@@ -14,9 +14,9 @@ class RealmPrototyeViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    @IBAction func saveDogs(sender: UIButton) {
+    @IBAction func saveDogs(_ sender: UIButton) {
     }
     
-    @IBAction func readDogs(sender: AnyObject) {
+    @IBAction func readDogs(_ sender: AnyObject) {
     }
 }
