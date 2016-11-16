@@ -62,7 +62,7 @@ class GroceryListTableViewController : UITableViewController{
                                                  target: self,
                                                  action: #selector(userCountButtonDidTouch))
         userCountBarButtonItem.tintColor = UIColor.white
-        navigationItem.leftBarButtonItem = userCountBarButtonItem
+//        navigationItem.leftBarButtonItem = userCountBarButtonItem
         
         usersRef.observe(.value, with: { snapshot in
             if snapshot.exists() {
