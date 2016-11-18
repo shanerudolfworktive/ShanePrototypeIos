@@ -28,6 +28,7 @@
 		34FFAEA61DDB83AA009577C9 /* GroceryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FFAEA51DDB83AA009577C9 /* GroceryListTableViewController.swift */; };
 		34FFAEA81DDBBA31009577C9 /* GroceryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FFAEA71DDBBA31009577C9 /* GroceryItem.swift */; };
 		34FFAEAA1DDBBB74009577C9 /* GroceryUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FFAEA91DDBBB74009577C9 /* GroceryUser.swift */; };
+		34FFAEAD1DDEC7A5009577C9 /* RealmModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FFAEAC1DDEC7A5009577C9 /* RealmModal.swift */; };
 		71478D4CB1D9BB4825BA0CC3 /* Pods_ShanePrototypeIosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553A3C1928968BD5A2C90716 /* Pods_ShanePrototypeIosUITests.framework */; };
 		9D38587750205C3CEDDE1CFF /* Pods_ShanePrototypeIos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1068256C7EA4F6FA34B48C /* Pods_ShanePrototypeIos.framework */; };
 		CF8CF38F2A91318D01A352EE /* Pods_ShanePrototypeIosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D380A790B5C0FEE39CF24D0 /* Pods_ShanePrototypeIosTests.framework */; };
@@ -79,6 +80,8 @@
 		34FFAEA51DDB83AA009577C9 /* GroceryListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryListTableViewController.swift; sourceTree = "<group>"; };
 		34FFAEA71DDBBA31009577C9 /* GroceryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryItem.swift; sourceTree = "<group>"; };
 		34FFAEA91DDBBB74009577C9 /* GroceryUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryUser.swift; sourceTree = "<group>"; };
+		34FFAEAB1DDEC740009577C9 /* ShanePrototypeIos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShanePrototypeIos.entitlements; sourceTree = "<group>"; };
+		34FFAEAC1DDEC7A5009577C9 /* RealmModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmModal.swift; sourceTree = "<group>"; };
 		553A3C1928968BD5A2C90716 /* Pods_ShanePrototypeIosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShanePrototypeIosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D380A790B5C0FEE39CF24D0 /* Pods_ShanePrototypeIosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShanePrototypeIosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69A2A60857FE4AAAD526CDD3 /* Pods-ShanePrototypeIosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShanePrototypeIosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShanePrototypeIosTests/Pods-ShanePrototypeIosTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,7 +125,6 @@
 			children = (
 				34FFAEA11DDB753F009577C9 /* GoogleService-Info.plist */,
 				3431E2E81DD2F7D70007A462 /* AppDelegate.swift */,
-				3431E2EC1DD2F7D70007A462 /* Main.storyboard */,
 				3431E2EF1DD2F7D70007A462 /* Assets.xcassets */,
 				3431E2F11DD2F7D70007A462 /* LaunchScreen.storyboard */,
 				3431E2F41DD2F7D70007A462 /* Info.plist */,
@@ -155,6 +157,8 @@
 		3431E2E71DD2F7D70007A462 /* ShanePrototypeIos */ = {
 			isa = PBXGroup;
 			children = (
+				3431E2EC1DD2F7D70007A462 /* Main.storyboard */,
+				34FFAEAB1DDEC740009577C9 /* ShanePrototypeIos.entitlements */,
 				34CAB58D1DD93EE6002B73AA /* Workers */,
 				348DB8B21DD9354E0035D758 /* CustomViews */,
 				34086CC21DD9208200D33269 /* SupportingFiles */,
@@ -203,6 +207,7 @@
 			children = (
 				34FFAEA71DDBBA31009577C9 /* GroceryItem.swift */,
 				34FFAEA91DDBBB74009577C9 /* GroceryUser.swift */,
+				34FFAEAC1DDEC7A5009577C9 /* RealmModal.swift */,
 			);
 			path = Modals;
 			sourceTree = "<group>";
@@ -325,7 +330,13 @@
 				TargetAttributes = {
 					3431E2E41DD2F7D70007A462 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 29KD7Q99K8;
 						LastSwiftMigration = 0810;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					3431E2F81DD2F7D80007A462 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -539,6 +550,7 @@
 				34FFAEA81DDBBA31009577C9 /* GroceryItem.swift in Sources */,
 				34CAB5951DD95D3B002B73AA /* FaceViewController.swift in Sources */,
 				34FFAEAA1DDBBB74009577C9 /* GroceryUser.swift in Sources */,
+				34FFAEAD1DDEC7A5009577C9 /* RealmModal.swift in Sources */,
 				34CAB5911DD958AB002B73AA /* EmotionsViewController.swift in Sources */,
 				3431E2EB1DD2F7D70007A462 /* ViewController.swift in Sources */,
 				3431E2E91DD2F7D70007A462 /* AppDelegate.swift in Sources */,
@@ -692,6 +704,8 @@
 			baseConfigurationReference = B1169534955A1F6310AAF7DF /* Pods-ShanePrototypeIos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShanePrototypeIos/ShanePrototypeIos.entitlements;
+				DEVELOPMENT_TEAM = 29KD7Q99K8;
 				INFOPLIST_FILE = ShanePrototypeIos/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -706,6 +720,8 @@
 			baseConfigurationReference = C90F5DBEF7222DF95F8FD629 /* Pods-ShanePrototypeIos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShanePrototypeIos/ShanePrototypeIos.entitlements;
+				DEVELOPMENT_TEAM = 29KD7Q99K8;
 				INFOPLIST_FILE = ShanePrototypeIos/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
