@@ -330,7 +330,7 @@
 				TargetAttributes = {
 					3431E2E41DD2F7D70007A462 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 29KD7Q99K8;
+						DevelopmentTeam = 6GTL9PZNV5;
 						LastSwiftMigration = 0810;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -705,7 +705,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ShanePrototypeIos/ShanePrototypeIos.entitlements;
-				DEVELOPMENT_TEAM = 29KD7Q99K8;
+				DEVELOPMENT_TEAM = 6GTL9PZNV5;
 				INFOPLIST_FILE = ShanePrototypeIos/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -721,7 +721,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ShanePrototypeIos/ShanePrototypeIos.entitlements;
-				DEVELOPMENT_TEAM = 29KD7Q99K8;
+				DEVELOPMENT_TEAM = 6GTL9PZNV5;
 				INFOPLIST_FILE = ShanePrototypeIos/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

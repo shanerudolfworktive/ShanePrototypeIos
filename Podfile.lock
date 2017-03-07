@@ -1,4 +1,6 @@
 PODS:
+  - Firebase (3.9.0):
+    - Firebase/Core (= 3.9.0)
   - Firebase/Auth (3.9.0):
     - Firebase/Core
     - FirebaseAuth (= 3.0.6)
@@ -45,6 +47,7 @@ PODS:
     - Realm (= 2.0.4)
 
 DEPENDENCIES:
+  - Firebase
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
@@ -64,6 +67,6 @@ SPEC CHECKSUMS:
   Realm: 9da97f48365f8b99dd95c28d45ad8222d62e1775
   RealmSwift: 01e8db006035f16003e6307ae8eae1adccce68db
 
-PODFILE CHECKSUM: 1abda020ef54ac87f6025456175c8754c3c17a41
+PODFILE CHECKSUM: be0994ab430f21eb714a8fd5ad797230c74360f3
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.0
