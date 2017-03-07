@@ -14,9 +14,11 @@ class PaintCodeRobotViewController: UIViewController{
 
     
     @IBAction func angleAction(_ sender: UISlider) {
-        print("%f", sender.value)
         robotView.angle = CGFloat(sender.value)
     }
     
+    @IBAction func redAction(_ sender: UISlider) {
+        robotView.red = CGFloat(sender.value)
+    }
     
 }

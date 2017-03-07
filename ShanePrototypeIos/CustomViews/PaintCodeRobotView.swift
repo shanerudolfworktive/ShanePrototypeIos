@@ -14,7 +14,7 @@ class PaintCodeRobotView: UIView{
     @IBInspectable
     var angle: CGFloat = 0 { didSet { setNeedsDisplay() } }
     @IBInspectable
-    var red: CGFloat = 0.5 { didSet { setNeedsDisplay() } }
+    var red: CGFloat = 0.0 { didSet { setNeedsDisplay() } }
     
     override func draw(_ rect: CGRect) {
         RobotStyleKit.drawRobot(robotColor: UIColor(red: red, green: 0.976, blue: 0.065, alpha: 1.000), angle: angle)

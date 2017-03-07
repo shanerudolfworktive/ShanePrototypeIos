@@ -311,7 +311,7 @@
                                         <real key="value" value="-190"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="red">
-                                        <real key="value" value="0.90000000000000002"/>
+                                        <real key="value" value="0.0"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
@@ -320,6 +320,13 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <action selector="angleAction:" destination="gBY-xm-nDV" eventType="valueChanged" id="cxs-ZD-XQw"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="41B-bF-cNd">
+                                <rect key="frame" x="14" y="579" width="347" height="31"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <action selector="redAction:" destination="gBY-xm-nDV" eventType="valueChanged" id="Za7-Qq-jnI"/>
                                 </connections>
                             </slider>
                         </subviews>
