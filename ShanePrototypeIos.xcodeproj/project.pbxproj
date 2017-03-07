@@ -15,6 +15,10 @@
 		3431E2FE1DD2F7D80007A462 /* ShanePrototypeIosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3431E2FD1DD2F7D80007A462 /* ShanePrototypeIosTests.swift */; };
 		3431E3091DD2F7D80007A462 /* ShanePrototypeIosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3431E3081DD2F7D80007A462 /* ShanePrototypeIosUITests.swift */; };
 		3431E31A1DD433450007A462 /* RealmPrototypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3431E3191DD433450007A462 /* RealmPrototypeViewController.swift */; };
+		343399CF1E6F1A7300B071C4 /* PaintCodeRobotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343399CE1E6F1A7300B071C4 /* PaintCodeRobotView.swift */; };
+		343399D41E6F1BDA00B071C4 /* Utils in Resources */ = {isa = PBXBuildFile; fileRef = 343399D31E6F1BDA00B071C4 /* Utils */; };
+		343399D61E6F1E7500B071C4 /* RobotStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343399D51E6F1E7500B071C4 /* RobotStyleKit.swift */; };
+		343399DA1E6F2B3500B071C4 /* PaintCodeRobotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343399D91E6F2B3500B071C4 /* PaintCodeRobotViewController.swift */; };
 		348DB8B81DD93BBF0035D758 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348DB8B71DD93BBF0035D758 /* CalculatorViewController.swift */; };
 		34CAB58F1DD93EF5002B73AA /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CAB58E1DD93EF5002B73AA /* CalculatorBrain.swift */; };
 		34CAB5911DD958AB002B73AA /* EmotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CAB5901DD958AB002B73AA /* EmotionsViewController.swift */; };
@@ -67,6 +71,10 @@
 		3431E3081DD2F7D80007A462 /* ShanePrototypeIosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShanePrototypeIosUITests.swift; sourceTree = "<group>"; };
 		3431E30A1DD2F7D80007A462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3431E3191DD433450007A462 /* RealmPrototypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmPrototypeViewController.swift; sourceTree = "<group>"; };
+		343399CE1E6F1A7300B071C4 /* PaintCodeRobotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintCodeRobotView.swift; sourceTree = "<group>"; };
+		343399D31E6F1BDA00B071C4 /* Utils */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Utils; sourceTree = "<group>"; };
+		343399D51E6F1E7500B071C4 /* RobotStyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotStyleKit.swift; sourceTree = "<group>"; };
+		343399D91E6F2B3500B071C4 /* PaintCodeRobotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintCodeRobotViewController.swift; sourceTree = "<group>"; };
 		348DB8B71DD93BBF0035D758 /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalculatorViewController.swift; path = ShanePrototypeIos/Controllers/CalculatorViewController.swift; sourceTree = SOURCE_ROOT; };
 		34CAB58E1DD93EF5002B73AA /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		34CAB5901DD958AB002B73AA /* EmotionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmotionsViewController.swift; path = ShanePrototypeIos/Controllers/EmotionsViewController.swift; sourceTree = SOURCE_ROOT; };
@@ -159,6 +167,7 @@
 			children = (
 				3431E2EC1DD2F7D70007A462 /* Main.storyboard */,
 				34FFAEAB1DDEC740009577C9 /* ShanePrototypeIos.entitlements */,
+				343399D31E6F1BDA00B071C4 /* Utils */,
 				34CAB58D1DD93EE6002B73AA /* Workers */,
 				348DB8B21DD9354E0035D758 /* CustomViews */,
 				34086CC21DD9208200D33269 /* SupportingFiles */,
@@ -197,6 +206,7 @@
 				34CAB59A1DDA267D002B73AA /* BlinkingFaceViewController.swift */,
 				34FFAEA31DDB7C81009577C9 /* FirebaseLoginViewController.swift */,
 				34FFAEA51DDB83AA009577C9 /* GroceryListTableViewController.swift */,
+				343399D91E6F2B3500B071C4 /* PaintCodeRobotViewController.swift */,
 			);
 			name = Controllers;
 			path = controllers;
@@ -215,8 +225,10 @@
 		348DB8B21DD9354E0035D758 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				343399D51E6F1E7500B071C4 /* RobotStyleKit.swift */,
 				34CAB5961DD9609F002B73AA /* FaceView.swift */,
 				34CAB5981DD96210002B73AA /* EyeView.swift */,
+				343399CE1E6F1A7300B071C4 /* PaintCodeRobotView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -379,6 +391,7 @@
 			files = (
 				3431E2F31DD2F7D70007A462 /* LaunchScreen.storyboard in Resources */,
 				34FFAEA21DDB753F009577C9 /* GoogleService-Info.plist in Resources */,
+				343399D41E6F1BDA00B071C4 /* Utils in Resources */,
 				3431E2F01DD2F7D70007A462 /* Assets.xcassets in Resources */,
 				3431E2EE1DD2F7D70007A462 /* Main.storyboard in Resources */,
 			);
@@ -546,12 +559,15 @@
 				34CAB58F1DD93EF5002B73AA /* CalculatorBrain.swift in Sources */,
 				34CAB5931DD95956002B73AA /* FacialExpression.swift in Sources */,
 				34CAB59B1DDA267D002B73AA /* BlinkingFaceViewController.swift in Sources */,
+				343399D61E6F1E7500B071C4 /* RobotStyleKit.swift in Sources */,
 				34FFAEA41DDB7C81009577C9 /* FirebaseLoginViewController.swift in Sources */,
 				34FFAEA61DDB83AA009577C9 /* GroceryListTableViewController.swift in Sources */,
 				348DB8B81DD93BBF0035D758 /* CalculatorViewController.swift in Sources */,
 				34FFAEA81DDBBA31009577C9 /* GroceryItem.swift in Sources */,
+				343399DA1E6F2B3500B071C4 /* PaintCodeRobotViewController.swift in Sources */,
 				34CAB5951DD95D3B002B73AA /* FaceViewController.swift in Sources */,
 				34FFAEAA1DDBBB74009577C9 /* GroceryUser.swift in Sources */,
+				343399CF1E6F1A7300B071C4 /* PaintCodeRobotView.swift in Sources */,
 				34FFAEAD1DDEC7A5009577C9 /* RealmModal.swift in Sources */,
 				34CAB5911DD958AB002B73AA /* EmotionsViewController.swift in Sources */,
 				3431E2EB1DD2F7D70007A462 /* ViewController.swift in Sources */,

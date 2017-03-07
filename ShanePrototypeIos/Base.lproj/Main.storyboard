@@ -287,6 +287,56 @@
             </objects>
             <point key="canvasLocation" x="1345" y="2449"/>
         </scene>
+        <!--Paint Code Robot View Controller-->
+        <scene sceneID="kbV-8j-It0">
+            <objects>
+                <viewController id="gBY-xm-nDV" customClass="PaintCodeRobotViewController" customModule="ShanePrototypeIos" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="clP-zN-cLC"/>
+                        <viewControllerLayoutGuide type="bottom" id="rZ0-16-1Sb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aV2-pt-k9N">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AMc-Vy-NdH" customClass="PaintCodeRobotView" customModule="ShanePrototypeIos" customModuleProvider="target">
+                                <rect key="frame" x="65" y="236" width="244" height="195"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="244" id="FzU-Vu-zAX"/>
+                                    <constraint firstAttribute="height" constant="195" id="N4d-lN-uAD"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="angle">
+                                        <real key="value" value="-190"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="red">
+                                        <real key="value" value="0.90000000000000002"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="-190" minValue="-190" maxValue="-130" translatesAutoresizingMaskIntoConstraints="NO" id="9nH-CR-CjG">
+                                <rect key="frame" x="14" y="617" width="347" height="31"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <action selector="angleAction:" destination="gBY-xm-nDV" eventType="valueChanged" id="cxs-ZD-XQw"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="AMc-Vy-NdH" firstAttribute="centerY" secondItem="aV2-pt-k9N" secondAttribute="centerY" id="0Of-Ly-BMy"/>
+                            <constraint firstItem="AMc-Vy-NdH" firstAttribute="centerX" secondItem="aV2-pt-k9N" secondAttribute="centerX" id="yD6-Le-4Hm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="robotView" destination="AMc-Vy-NdH" id="fWw-Fn-3W7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DxR-uV-Jbx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1344.8" y="3100.2998500749627"/>
+        </scene>
         <!--Realm Prototye View Controller-->
         <scene sceneID="KA2-7H-1RN">
             <objects>
@@ -709,7 +759,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="1mp-em-Lxe">
-                                <rect key="frame" x="122" y="258" width="130" height="150"/>
+                                <rect key="frame" x="122" y="243" width="130" height="180"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="TDg-Eu-ELc">
                                         <rect key="frame" x="0.0" y="0.0" width="130" height="30"/>
@@ -743,6 +793,13 @@
                                         <state key="normal" title="Firebase Prototype"/>
                                         <connections>
                                             <segue destination="pyN-TI-zJg" kind="show" id="ZeE-dJ-KAI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRS-pw-4fX">
+                                        <rect key="frame" x="0.0" y="150" width="130" height="30"/>
+                                        <state key="normal" title="Paint Code Robot"/>
+                                        <connections>
+                                            <segue destination="gBY-xm-nDV" kind="show" id="Xro-lH-5Po"/>
                                         </connections>
                                     </button>
                                 </subviews>
