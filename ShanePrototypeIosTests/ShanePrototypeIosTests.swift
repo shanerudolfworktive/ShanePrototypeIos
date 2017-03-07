@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import ShanePrototypeIos
+
 
 class ShanePrototypeIosTests: XCTestCase {
     

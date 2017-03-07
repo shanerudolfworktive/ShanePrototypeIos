@@ -331,7 +331,7 @@
 					3431E2E41DD2F7D70007A462 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 6GTL9PZNV5;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 0820;
 						SystemCapabilities = {
 							com.apple.Keychain = {
 								enabled = 1;
@@ -340,12 +340,14 @@
 					};
 					3431E2F81DD2F7D80007A462 = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0810;
+						DevelopmentTeam = QB49W27K4B;
+						LastSwiftMigration = 0820;
 						TestTargetID = 3431E2E41DD2F7D70007A462;
 					};
 					3431E3031DD2F7D80007A462 = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0810;
+						DevelopmentTeam = QB49W27K4B;
+						LastSwiftMigration = 0820;
 						TestTargetID = 3431E2E41DD2F7D70007A462;
 					};
 				};
@@ -736,6 +738,7 @@
 			baseConfigurationReference = CA859D8C4BF3E4FC7B0409D5 /* Pods-ShanePrototypeIosTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QB49W27K4B;
 				INFOPLIST_FILE = ShanePrototypeIosTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shane.ShanePrototypeIosTests;
@@ -750,6 +753,7 @@
 			baseConfigurationReference = 69A2A60857FE4AAAD526CDD3 /* Pods-ShanePrototypeIosTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QB49W27K4B;
 				INFOPLIST_FILE = ShanePrototypeIosTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shane.ShanePrototypeIosTests;
@@ -763,6 +767,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 756C8DEB2224E4DD49D736A6 /* Pods-ShanePrototypeIosUITests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = QB49W27K4B;
 				INFOPLIST_FILE = ShanePrototypeIosUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shane.ShanePrototypeIosUITests;
@@ -776,6 +781,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7027C3184E4D034CDA2172C7 /* Pods-ShanePrototypeIosUITests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = QB49W27K4B;
 				INFOPLIST_FILE = ShanePrototypeIosUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shane.ShanePrototypeIosUITests;
