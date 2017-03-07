@@ -13,6 +13,7 @@ target 'ShanePrototypeIos' do
   target 'ShanePrototypeIosTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'Firebase'
   end
 
   target 'ShanePrototypeIosUITests' do
